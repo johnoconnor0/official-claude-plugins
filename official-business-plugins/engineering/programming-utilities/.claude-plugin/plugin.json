@@ -1,0 +1,23 @@
+{
+  "name": "programming-utilities",
+  "version": "2.2.1",
+  "description": "Five repo-ops helper skills for engineering teams — changelog-generator, pr-description-writer, env-var-auditor, doc-link-validator, repo-snapshot.",
+  "author": {
+    "name": "John O'Connor",
+    "email": "john@anthril.com",
+    "url": "https://github.com/johnoconnor0"
+  },
+  "homepage": "https://github.com/anthril/official-claude-plugins/tree/main/official-business-plugins/engineering/programming-utilities",
+  "repository": "https://github.com/anthril/official-claude-plugins",
+  "license": "MIT",
+  "keywords": [
+    "engineering",
+    "repo-ops",
+    "changelog",
+    "pr",
+    "docs",
+    "env"
+  ],
+  "skills": "./skills/",
+  "commands": "./commands/"
+}

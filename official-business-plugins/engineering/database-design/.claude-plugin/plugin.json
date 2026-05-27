@@ -1,0 +1,23 @@
+{
+  "name": "database-design",
+  "version": "1.3.2",
+  "description": "Postgres schema design + audit for Supabase or any Postgres 13+ database. 7 skills covering schema design, RLS, migrations, indexes, ERDs, bootstrap, and audit. Connects via Supabase MCP when available; falls back to locally-configured psql.",
+  "author": {
+    "name": "John O'Connor",
+    "email": "john@anthril.com",
+    "url": "https://github.com/johnoconnor0"
+  },
+  "homepage": "https://github.com/anthril/official-claude-plugins/tree/main/official-business-plugins/engineering/database-design",
+  "repository": "https://github.com/anthril/official-claude-plugins",
+  "license": "MIT",
+  "keywords": [
+    "engineering",
+    "database",
+    "design"
+  ],
+  "skills": "./skills/",
+  "commands": "./commands/",
+  "agents": [
+    "./skills/migration-plan-builder/agents/db-reviewer.md"
+  ]
+}

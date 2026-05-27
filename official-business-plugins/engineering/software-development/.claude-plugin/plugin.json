@@ -1,0 +1,33 @@
+{
+  "name": "software-development",
+  "version": "1.5.0",
+  "description": "audit/orchestration skills for software teams — stack-agnostic codebase profiler (architecture topology, dependency graph, security surface, quality metrics), dead code detection across 9 languages, end-to-end write path mapping, parallel multi-agent plan orchestration for Plan Mode. The Next.js/Supabase application audit has been replaced by the cross-stack software-assurance-audit-program plugin.",
+  "author": {
+    "name": "John O'Connor",
+    "email": "john@anthril.com",
+    "url": "https://github.com/johnoconnor0"
+  },
+  "homepage": "https://github.com/anthril/official-claude-plugins/tree/main/official-business-plugins/engineering/software-development",
+  "repository": "https://github.com/anthril/official-claude-plugins",
+  "license": "MIT",
+  "keywords": [
+    "engineering",
+    "software",
+    "development"
+  ],
+  "skills": "./skills/",
+  "agents": [
+    "./skills/plan-orchestrator/agents/backend-investigator.md",
+    "./skills/plan-orchestrator/agents/coverage-sweeper.md",
+    "./skills/plan-orchestrator/agents/database-investigator.md",
+    "./skills/plan-orchestrator/agents/documentation-investigator.md",
+    "./skills/plan-orchestrator/agents/frontend-investigator.md",
+    "./skills/plan-orchestrator/agents/infrastructure-investigator.md",
+    "./skills/plan-orchestrator/agents/security-investigator.md",
+    "./skills/plan-orchestrator/agents/testing-investigator.md",
+    "./skills/codebase-profiler/agents/dependency-analyst.md",
+    "./skills/codebase-profiler/agents/architecture-mapper.md",
+    "./skills/codebase-profiler/agents/quality-profiler.md",
+    "./skills/codebase-profiler/agents/infra-security-scanner.md"
+  ]
+}
